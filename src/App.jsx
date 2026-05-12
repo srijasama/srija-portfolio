@@ -10,26 +10,25 @@ import {
   Mail,
   FileText,
   ExternalLink,
-  ArrowLeft,
 } from "lucide-react";
 
 /** ✅ EDIT THESE ONLY */
 const PROFILE = {
   name: "Srija Sama",
-  tagline: "I'm a Product Analyst",
-  linkedin: "https://www.linkedin.com/in/ssrijareddy/",
+  tagline: "Product Manager | AI Workflow Automation | ServiceNow | SQL Analytics",
+  linkedin: "https://www.linkedin.com/in/ssrija-reddy/",
   github: "https://github.com/srijasama",
-  email: "srijasama@email.com", // change
+  email: "srija.sama@zohomail.com",
   resumePath: "/resume.pdf",
   photoPath: "/profile.jpg",
 };
 
 const ABOUT = {
-  titleLine: "Product Analyst | SQL | A/B Testing | Power BI | Python",
+  titleLine: "Product Manager | ServiceNow | AI Automation | SQL | Power BI | Agile",
   paragraphs: [
-    "Hi, I’m Srija — a Product Analyst who loves turning messy data into clear product decisions. I focus on activation, adoption, and retention, and I’m obsessed with finding the “why” behind user behavior.",
-    "I work with cross-functional teams to define KPIs, analyze funnels, validate experiments, and build dashboards that help teams ship confidently.",
-    "Outside of work, I’m usually polishing my portfolio, learning more about experimentation, or nerding out on how small UX changes can create big retention wins.",
+    "Hi, I’m Srija — a Product Manager with experience in AI-powered workflow automation, enterprise platforms, and product analytics.",
+    "I focus on improving operational efficiency, reducing ticket resolution time, building KPI dashboards, and helping teams make roadmap decisions using data.",
+    "My work combines product strategy, Agile execution, stakeholder alignment, SQL-based analytics, ServiceNow Performance Analytics, and Power BI dashboards.",
   ],
 };
 
@@ -50,34 +49,25 @@ const EDUCATION = [
 
 const EXPERIENCE = [
   {
-    role: "Product Analyst",
-    company: "ServiceNow (Contract)",
-    dates: "July 2025 – Present",
+    role: "Product Manager",
+    company: "ServiceNow",
+    dates: "Jan 2025 – Present",
     bullets: [
-      "Defined KPIs for activation, workflow completion, and feature engagement to support product releases.",
-      "Analyzed onboarding and feature adoption using SQL and Python to identify user journey friction points.",
-      "Conducted A/B test analysis on UI and workflow variants, measuring lift and statistical significance.",
-      "Built Power BI dashboards tracking activation, retention, and time-to-value across releases.",
+      "Led AI-driven service operations and workflow automation initiatives that reduced ticket resolution time by 42%.",
+      "Managed roadmap and backlog using RICE and MoSCoW frameworks, improving delivery velocity by 35%.",
+      "Built KPI dashboards using Power BI and ServiceNow Performance Analytics to track workflow adoption, SLA performance, and operational efficiency.",
+      "Partnered with engineering, operations, and executive stakeholders to define requirements, user stories, and acceptance criteria.",
     ],
   },
   {
-    role: "Process Analyst",
-    company: "Tata Consultancy Services (TCS) — Client: Wolters Kluwer (USA)",
-    dates: "June 2023 – Jan 2024",
+    role: "Associate Product Manager",
+    company: "Neon IT Systems",
+    dates: "Jul 2021 – Dec 2023",
     bullets: [
-      "Prepared, validated, and submitted U.S. state-level annual tax filings using HCue and advanced Excel.",
-      "Reconciled large datasets, performed QA checks, and resolved exceptions to meet statutory deadlines.",
-      "Coordinated with client and cross-functional stakeholders to ensure compliance and on-time submissions.",
-    ],
-  },
-  {
-    role: "Process Analyst",
-    company: "Tata Consultancy Services (TCS) — Client: BICS (Belgium)",
-    dates: "Nov 2022 – May 2023",
-    bullets: [
-      "Managed end-to-end billing and financial disputes using Salesforce in a high-volume environment.",
-      "Built and maintained operational dashboards tracking dispute volumes, timelines, and KPIs.",
-      "Collaborated with finance and operations teams to meet SLAs and improve reporting turnaround time.",
+      "Led product discovery, requirements gathering, and process optimization initiatives for enterprise workflow solutions.",
+      "Facilitated sprint planning, backlog refinement, and Agile ceremonies to improve feature delivery consistency.",
+      "Created SQL-based reporting pipelines and executive dashboards to support leadership decision-making.",
+      "Documented product requirements in Confluence and improved stakeholder alignment across technical and business teams.",
     ],
   },
 ];
@@ -117,18 +107,32 @@ const CERTIFICATIONS = [
 
 const PROJECTS = [
   {
-    title: "Customer Segmentation & Purchase Insights",
-    desc: "Segmentation analysis + insights dashboard (replace with your real description).",
-    tags: ["SQL", "Python", "Power BI"],
+    title: "AI Workflow Automation & Ticket Resolution Optimization",
+    desc: "Led AI-driven workflow automation initiatives on ServiceNow that reduced ticket resolution time by 42%, improved SLA compliance, and streamlined operational efficiency across multiple business units through intelligent routing and automation strategies.",
+    tags: ["ServiceNow", "AI Automation", "Product Strategy", "Workflow Optimization"],
     github: "https://github.com/srijasama",
-    live: "https://example.com",
+    live: "https://srijasamas-portfolio.netlify.app/",
   },
   {
-    title: "Employee Engagement Analysis",
-    desc: "Survey + engagement metrics analysis (replace with your real description).",
-    tags: ["Analytics", "Excel", "Visualization"],
+    title: "Product Analytics Dashboard for Workflow Adoption",
+    desc: "Designed KPI-driven Power BI and ServiceNow Performance Analytics dashboards to monitor workflow adoption, SLA compliance, funnel movement, and operational efficiency. Helped identify onboarding friction points and supported data-backed product optimization initiatives.",
+    tags: ["Power BI", "SQL", "ServiceNow", "Product Analytics", "KPIs"],
     github: "https://github.com/srijasama",
-    live: "https://example.com",
+    live: "https://srijasamas-portfolio.netlify.app/",
+  },
+  {
+    title: "Employee Engagement Analytics Capstone",
+    desc: "Analyzed 2,200+ employee and 14,000+ customer records across 128 branches using regression and clustering techniques to identify service quality drivers and improve customer satisfaction insights.",
+    tags: ["Python", "Regression", "Clustering", "Analytics"],
+    github: "https://github.com/srijasama",
+    live: "https://srijasamas-portfolio.netlify.app/",
+  },
+  {
+    title: "SQL Reporting & Executive Dashboard Automation",
+    desc: "Built SQL-based reporting pipelines and executive dashboards to automate business reporting processes, reduce manual reporting effort, and improve leadership visibility into operational and product performance metrics.",
+    tags: ["SQL", "Dashboarding", "Automation", "Business Analytics"],
+    github: "https://github.com/srijasama",
+    live: "https://srijasamas-portfolio.netlify.app/",
   },
 ];
 
@@ -176,6 +180,7 @@ function ParticlesBg() {
 function TopRightIcons() {
   const iconBtn =
     "w-11 h-11 rounded-full bg-white/10 hover:bg-white/15 border border-white/10 grid place-items-center transition";
+
   return (
     <div className="fixed top-6 right-6 z-50 flex gap-3">
       <a className={iconBtn} href={PROFILE.github} target="_blank" rel="noreferrer" aria-label="GitHub">
@@ -219,13 +224,14 @@ function Header() {
   return (
     <div className="pt-24">
       <h1 className="text-6xl md:text-7xl font-extrabold tracking-tight">{PROFILE.name}</h1>
+
       <p className="mt-3 text-xl md:text-2xl text-white/70">
-        {PROFILE.tagline.split("Product Analyst").map((part, i) => (
+        {PROFILE.tagline.split("Product Manager").map((part, i) => (
           <React.Fragment key={i}>
             {part}
             {i === 0 && (
               <span className="text-cyan-300 underline underline-offset-8 decoration-cyan-400">
-                Product Analyst
+                Product Manager
               </span>
             )}
           </React.Fragment>
@@ -285,9 +291,40 @@ function GlassCard({ className, children }) {
 }
 
 function HomePage() {
-  // Sakshi-style home is basically hero + nav only.
-  // Keep it clean.
-  return <div className="pb-10" />;
+  return (
+    <div className="pb-20 pt-16">
+      <div className="max-w-3xl">
+        <p className="text-cyan-300 text-lg font-medium">
+          Product Manager • AI Workflow Automation • Product Analytics
+        </p>
+
+        <h2 className="mt-6 text-5xl md:text-6xl font-extrabold leading-tight">
+          Building data-driven product experiences that improve operational efficiency and user adoption.
+        </h2>
+
+        <p className="mt-8 text-white/70 text-lg leading-8">
+          I work on AI-powered workflow automation, KPI dashboards, operational analytics,
+          and product optimization across enterprise platforms.
+        </p>
+
+        <div className="mt-10 flex flex-wrap gap-4">
+          <a
+            href="/projects"
+            className="px-6 py-3 rounded-xl bg-white text-black font-semibold hover:opacity-90 transition"
+          >
+            View Projects
+          </a>
+
+          <a
+            href="/contact"
+            className="px-6 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function AboutPage() {
@@ -317,12 +354,12 @@ function AboutPage() {
 
 function ProjectsPage() {
   return (
-    <Page kicker="Projects" title="Some things I’ve built">
+    <Page kicker="Projects" title="Product & Analytics Case Studies">
       <div className="grid md:grid-cols-2 gap-6">
         {PROJECTS.map((p) => (
           <GlassCard key={p.title} className="p-6 hover:bg-white/7 transition">
             <div className="rounded-xl bg-white/10 border border-white/10 h-44 mb-5 grid place-items-center text-white/40">
-              Add project image later
+              Product Case Study
             </div>
 
             <h3 className="text-xl font-bold">{p.title}</h3>
@@ -330,7 +367,10 @@ function ProjectsPage() {
 
             <div className="mt-4 flex flex-wrap gap-2">
               {p.tags.map((t) => (
-                <span key={t} className="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-white/70">
+                <span
+                  key={t}
+                  className="text-xs px-3 py-1 rounded-full bg-white/10 border border-white/10 text-white/70"
+                >
                   {t}
                 </span>
               ))}
